@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>File Upload and Create Div</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    hello world
+    <h1>Upload an Image to Create a Div</h1>
+    <form id="uploadForm">
+        <input type="file" id="fileInput" name="file" accept="image/*" />
+        <button type="button" id="uploadButton">Upload</button>
+    </form>
+    <div id="container"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
